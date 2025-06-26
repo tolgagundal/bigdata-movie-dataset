@@ -8,14 +8,16 @@ I found my dataset on Kaggle and chose it. Because it looked interesting and I m
 This project aims to classify movie ratings into categories like `poor`, `average`, `good`, and `excellent` using PySpark and Random Forest.
 
 # Tools Used
-- PySpark for Big Data processing
-- Pandas and Scikit-learn for ML
-- Docker for container setup
-- Jupyter Notebook
+- **Docker** to set up a local big data environment
+- **Apache Spark (PySpark)** for data wrangling and transformation
+- **Spark SQL** for analysis and aggregation
+- **Scikit-learn** for model training (Random Forest Classifier)
+- **Pandas / Matplotlib / Seaborn** for visualization
 
 # Model Accuracy
-- Accuracy: 80.4%
-- Best performance on predicting `poor` class (Precision: 0.98)
+- Accuracy: **80.4%**
+- F1 Score (Excellent class): **0.96**
+- Most influential feature: **vote_count**
 
 # How to Run
 1. Clone the repo
